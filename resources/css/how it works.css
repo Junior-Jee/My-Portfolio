@@ -1,0 +1,27 @@
+section-steps{
+    display: block;
+    float:right;
+    text-align: right;
+    
+}
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app screen{
+    width: 30px;
+    height: 30px;
+}
+
+.works-step{
+    margin-bottom: 50px;}
+
+body{
+        background-image: url(/resources/img/san-francisco.jpg);
+}
