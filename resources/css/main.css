@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    position: ;
 }
 
 html{
@@ -18,6 +17,7 @@ header{
 
     box-sizing: content-box;
 }
+
 
 
 /*----------------------------------------------------------*/
@@ -205,8 +205,8 @@ header{
   
 .sliderss{
     margin-top:15%;
-    margin-left: 20%;
-    margin-right: 22%;
+  padding-left: 20%;
+  padding-right: 22%;
     position: relative;
 }
   
