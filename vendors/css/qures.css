@@ -116,6 +116,10 @@
       width: 100%;
       margin-left: 0;
     }
+    .span-1-of-4{
+      width: 100%;
+      margin-left: 0
+    }
     .steps-box:first-child {
       text-align: center;
     }
@@ -144,7 +148,8 @@
   
     .sliderss{max-width: 100%;
     height: 100%;
-  box-sizing: content-box;}
+    position: center;
+  margin-right: 5%;}
   
   
     section {
@@ -152,5 +157,10 @@
     }
     .contact-form {
       width: 100%;
+    }
+
+    .span-1-of-4{
+      width: 100%;
+      margin-left: 0
     }
   }

@@ -23,7 +23,14 @@ header{
 /*----------------------------------------------------------*/
 /*   REUSABLE COMPONENTS    */
 /*----------------------------------------------------------*/
+ .long-copy{
+  margin-bottom: 4%;
 
+}
+
+.span_1_of_4 > p {
+ ;
+}
 .row {
     max-width: 1140px;
     margin: 0 auto ;
@@ -204,10 +211,9 @@ header{
       display: block;}
   
 .sliderss{
-    margin-top:15%;
-  padding-left: 20%;
-  padding-right: 22%;
-    position: relative;
+    margin-top: 12%;
+    margin-left: 5%;
+    position: center;
 }
   
   /********** BUTTONS **********/
@@ -230,7 +236,7 @@ header{
 /* TESTIMONIALS */
 /* ============================ */
 .section-testimonials{
-  margin-top:5%;
+  margin-top: 2%;
 }
 blockquote{
   padding: 2%;
@@ -377,3 +383,4 @@ footer p{
   float: left;
   width: 49.2%;
     }
+
