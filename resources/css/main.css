@@ -235,6 +235,10 @@ header{
 /* ============================ */
 /* TESTIMONIALS */
 /* ============================ */
+
+
+
+
 .section-testimonials{
   margin-top: 2%;
 }
@@ -278,13 +282,17 @@ cite img{
             margin: 8px 0;
             box-sizing: border-box;
             border-radius: 7px;
+            background-color: cornsilk;
         }
         input[type=text],
-        input[type=password] :hover{
+        input[type=password]
+        :hover,
+        input[type=text],
+        input[type=password]::after{
             width: 100%;
-            border: 1px solid #2917cf;
+            border: 1px solid #e67e22;
             color: rgb(0, 0, 0);
-            background-color: #ffffff;transition: background-color 0.2s,; border:  0.2s,; color:  0.2s;  
+            background-color: #4d5e1f28;transition: background-color 0.2s,; border:  0.2s,; color:  0.2s;  
             }
      .one{
          margin-top: 18%;
@@ -295,7 +303,7 @@ cite img{
 width: 30%;
 height: 34px;
 color: black;
-background-color: rgb(208, 247, 136);
+background-color: #cf6d17;
 margin-left: 30%;
 }
 
@@ -304,7 +312,7 @@ margin-left: 30%;
 /* FOOTER*/
 /* ============================ */
 footer{
-  background-color: rgba(180, 124, 21, 0.418);
+  background-color: #e67e22;
   padding: 50px;
   font-size: 80%;
 }
